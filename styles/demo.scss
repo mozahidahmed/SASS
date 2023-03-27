@@ -5,3 +5,14 @@
 
 
 }
+
+
+//variable declaration 
+$header-bgcolor:#683274;
+$padding:10px;
+
+.header{
+    background-color: $header-bgcolor;
+    padding: $padding;
+
+}
