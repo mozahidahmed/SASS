@@ -1,18 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
-}
-
+@forward "./utill/base/reset";
 
 //variable declaration 
-$header-bgcolor:#683274;
-$padding:10px;
+$header-bg-color:#683274;
+$padding:20px;
+$paragraph-color:white;
 
 .header{
-    background-color: $header-bgcolor;
+    background-color: $header-bg-color;
     padding: $padding;
+    color: $paragraph-color;
 
 }
