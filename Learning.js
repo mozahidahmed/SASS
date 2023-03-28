@@ -23,7 +23,16 @@
      p{
      @include para-style(12,yellow);
      }
-07,
+07.@extend share style with another tag
+     .error {
+     border: 1px #f00;
+     background-color: #fdd;
+
+     &--serious {
+     @extend .error;
+     border-width: 3px;
+     }
+     }
 
 
 
