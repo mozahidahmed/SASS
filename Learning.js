@@ -33,9 +33,23 @@
      border-width: 3px;
      }
      }
+08.conditional 
+     @mixin setFontSize($value) {
+     @if $value == small {
+     font-size: 12px;
+     } @else if $value == medium {
+     font-size: 16px;
+     } @else if $value == large {
+     font-size: 20px;
+     } @else {
+     font-size: none;
+     }
+     }
 
-
-
+       
+     P{
+          @include setFontSize(large);
+     }
 
 
 
