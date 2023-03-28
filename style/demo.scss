@@ -1,0 +1,13 @@
+*{
+    background-color: red;
+}
+
+@mixin para-style($size,$bg){
+    padding: $size;
+    background-color: $bg;
+}
+
+p{
+@include para-style(12,yellow);
+}
+
